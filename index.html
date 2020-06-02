@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+
+    </head>
+    <body>
+
+        <header class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm- 4 col-sm-3">
+                    <h1> hi this is an experiment </h1>
+                    </div>
+                    <div class="col-12 col-sm col-sm">
+                        <h1> hi this is an experiment </h1>
+                    </div>
+
+                </div>
+
+            </div>
+        </header>
+        <div class="container">
+
+
+            <ul class="list-unstyled">
+                <li><a>chekku</a></li>
+                <li><a>squchuu</a></li>
+                <li><a>love you baby</a></li>
+                <li><a>babby bear</a></li>
+                <li><a>squchu time</a></li>
+                <li><a>babby bear</a></li>
+
+            </ul>
+
+            <h3 class="display-1">FIT'D Interview</h3>
+            <p class="page-description">tiny app that allows you to improve your interviews</p>
+          
+
+            <h3 class="no-browser-support">Sorry, Your Browser Doesn't Support the Web Speech API. Try Opening This Demo In Google Chrome.</h3>
+
+            <div class="app"> 
+                <h3>Add new interview</h3>
+                <div class="input-single">
+                    <textarea id="note-textarea" placeholder="Create a new interview by typing or using voice recognition." rows="6"></textarea>
+                </div>         
+                <button id="start-record-btn" title="Start Recording" style=background:#320C7F>Start Recognition</button>
+                <button id="pause-record-btn" title="Pause Recording" style=background:#320C7F>Pause Recognition</button>
+                <button id="save-note-btn" title="Save Note" style=background:#320C7F>Save Note</button>   
+                <p id="recording-instructions">Press the <strong>Start Recognition</strong> button and allow access.</p>
+                
+                <h3>My transcripts</h3>
+                <ul id="notes">
+                    <li>
+                        <p class="no-notes">You don't have any transcripts.</p>
+                    </li>
+                </ul>
+
+
+
+                <button onclick="document.getElementById('file-input').click();">Open</button>
+                <input id="file-input" type="file" name="name" style="display: none;" />
+
+            </div>
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper-utils.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+
+
+        <!-- Only used for the demos ads. Please ignore and remove. --> 
+       
+
+    </body>
+</html>
+
+
